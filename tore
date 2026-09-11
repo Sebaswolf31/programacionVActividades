@@ -1,0 +1,33 @@
+[1mdiff --git a/Program.cs b/Program.cs[m
+[1mindex e9c2e26..920b232 100644[m
+[1m--- a/Program.cs[m
+[1m+++ b/Program.cs[m
+[36m@@ -43,7 +43,7 @@[m [mapp.MapScalarApiReference(options =>[m
+ app.MapGet("/", () =>[m
+     Results.Redirect("/scalar/v1"));[m
+ [m
+[31m-app.UseHttpsRedirection();[m
+[32m+[m[32m// app.UseHttpsRedirection();[m
+ [m
+ app.MapControllers();[m
+ [m
+[1mdiff --git a/obj/Debug/net10.0/ProgramacionV.Api.AssemblyInfo.cs b/obj/Debug/net10.0/ProgramacionV.Api.AssemblyInfo.cs[m
+[1mindex 42933f7..3aaf91d 100644[m
+[1m--- a/obj/Debug/net10.0/ProgramacionV.Api.AssemblyInfo.cs[m
+[1m+++ b/obj/Debug/net10.0/ProgramacionV.Api.AssemblyInfo.cs[m
+[36m@@ -13,7 +13,7 @@[m [musing System.Reflection;[m
+ [assembly: System.Reflection.AssemblyCompanyAttribute("ProgramacionV.Api")][m
+ [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")][m
+ [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")][m
+[31m-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3876029312b67e110507364cfb9bd12149b0509")][m
+[32m+[m[32m[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6178ac18de5b9fc1df6cfab4533b0914396d7f40")][m
+ [assembly: System.Reflection.AssemblyProductAttribute("ProgramacionV.Api")][m
+ [assembly: System.Reflection.AssemblyTitleAttribute("ProgramacionV.Api")][m
+ [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")][m
+[1mdiff --git a/obj/Debug/net10.0/ProgramacionV.Api.AssemblyInfoInputs.cache b/obj/Debug/net10.0/ProgramacionV.Api.AssemblyInfoInputs.cache[m
+[1mindex 3ece539..fe81c97 100644[m
+[1m--- a/obj/Debug/net10.0/ProgramacionV.Api.AssemblyInfoInputs.cache[m
+[1m+++ b/obj/Debug/net10.0/ProgramacionV.Api.AssemblyInfoInputs.cache[m
+[36m@@ -1 +1 @@[m
+[31m-7160c1f2974bab25ac736c1ae5439ec26b8a2b882b9a737afbf8d9c25970d0b8[m
+[32m+[m[32ma044feac1eaad502f317f1a88c73bde5b5055f25a049378866e3affcdbd4e577[m
