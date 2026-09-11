@@ -9,6 +9,7 @@ public class Estudiante
     public string Nombre { get; set; } = string.Empty;
 
     public string Correo { get; set; } = string.Empty;
+    public string? Telefono { get; set; }
 
     public int ProgramaAcademicoId { get; set; }
 
