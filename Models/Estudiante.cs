@@ -1,3 +1,4 @@
+using System.ComponentModel.DataAnnotations;
 namespace ProgramacionV.Api.Models;
 
 public class Estudiante
@@ -9,7 +10,8 @@ public class Estudiante
     public string Nombre { get; set; } = string.Empty;
 
     public string Correo { get; set; } = string.Empty;
-    public string? Telefono { get; set; }
+    [Phone(ErrorMessage = "El formato del número de teléfono no es válido.")]
+    public string Telefono { get; set; } = string.Empty;
 
     public int ProgramaAcademicoId { get; set; }
 
