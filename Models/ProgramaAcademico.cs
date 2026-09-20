@@ -15,4 +15,4 @@ public class ProgramaAcademico
     [JsonIgnore]
     public List<Estudiante> Estudiantes { get; set; } = [];
 }
-// vamos a hacer otro cambio para agregarlo en un nuevo commit 
+// vamos a hacer otro cambio para agregarlo en un nuevo commit  
